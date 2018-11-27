@@ -1,12 +1,12 @@
 spring:
   application:
-    name: hello-spring-cloud-config
+    name: mirror-springcloud-config
   cloud:
     config:
       label: master
       server:
         git:
-          uri: https://github.com/topsale/spring-cloud-config
+          uri: https://github.com/mirrormingzZ/mirror-springcloud-demo/
           search-paths: respo
           username:
           password:
